@@ -62,7 +62,7 @@ public class TwitterController
          * TODO 9: you put it all together here. Call the functions you
          * finished in TODO's 2-8. They have to be in the correct order for the
          * program to work.
-         * Remember to user.clear() so that consecutive requests dont count
+         * Remember to user.clear() so that consecutive requests don't count
          * words from previous requests.
          */
 
