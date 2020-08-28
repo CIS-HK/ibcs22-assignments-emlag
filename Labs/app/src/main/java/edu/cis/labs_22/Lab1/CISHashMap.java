@@ -29,7 +29,7 @@ public class CISHashMap<SomeTypeKey, SomeTypeVal> {
 
     }
 
-    public void add(Object key, Object value)
+    public void add(SomeTypeKey key, SomeTypeVal value)
     {
         /*
             TODO 8: Find the Value by using the Key. Return the value. Grow
@@ -38,7 +38,7 @@ public class CISHashMap<SomeTypeKey, SomeTypeVal> {
 
     }
 
-    public Object getElement(Object key)
+    public SomeTypeVal getElement(SomeTypeKey key)
     {
         /*
             TODO 9: Method getElement, which takes in an object as the key,
@@ -46,6 +46,6 @@ public class CISHashMap<SomeTypeKey, SomeTypeVal> {
             the given key. Use .hashCode() to find the Key's hashcode. This
             will sometimes return a negative hash, get the absolute value of it.
         */
-        return 0;
+        return null;
     }
 }
