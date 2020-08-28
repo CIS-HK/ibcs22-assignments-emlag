@@ -58,10 +58,10 @@ public class CISArrayList<SomeType> {
             return null;
     }
 
-    public SomeType setElement(int idx, Object objectToStore)
+    public SomeType setElement(int idx, SomeType objectToStore)
     {
             /* TODO 5: Method setElement, takes in an int as the index
-               and an Object, and replaces the Object at that index in the
+               and an object, and replaces the object at that index in the
                allTheObjects array. This should return the old object, which
                was replaced as is no longer in the array. If index is out of
                bounds (less than 0 or >number of objects), return null.
