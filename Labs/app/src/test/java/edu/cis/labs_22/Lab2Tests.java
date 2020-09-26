@@ -48,7 +48,7 @@ public class Lab2Tests {
         assertFalse(answerBad); //strings are not equal
 
         boolean answerBadTwo = si.stringIsEqual(toTest, stringEmpty);
-        assertTrue(answerBadTwo); //one of the strings is empty
+        assertFalse(answerBadTwo); //one of the strings is empty
     }
 
     @Test
@@ -206,14 +206,16 @@ public class Lab2Tests {
         Student ss = StringSerializer.deserialize(serializedStudent);
         if (ss != null)
         {
-            assertEquals(ss.getYearLevel(), "year 12");
-            assertEquals(ss.getId(), "99");
+            assertEquals( "year 12", ss.getYearLevel());
+            assertEquals( "99", ss.getId());
             assertTrue(ss.getClubs() != null);
-            assertEquals(ss.getClubs().get(0).getName(), "create");
+            assertEquals("create", ss.getClubs().get(0).getName());
         }
         else
         {
             assertTrue(false);
         }
     }
+
+
 }

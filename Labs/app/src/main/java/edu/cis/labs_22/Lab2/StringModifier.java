@@ -5,7 +5,7 @@ public class StringModifier
     /* TODO 2:
          a. Create, stringToUpperCase, a method that upper cases the original string and returns the new string.
          b. Create, stringToLowerCase, a method that lower cases the original string and returns the new string.
-         c. Create a method, asToEs, that replaces all a's in a string for e's.
+         c. Create a method, asToEs, that replaces all a's in a string for e' and e's for a's
          d. Create a method, combineStrings, that takes in two strings combines them.
             So if the strings are "united" and "states", return "unitedstates".
          e: Create a method that changes the first letter of
