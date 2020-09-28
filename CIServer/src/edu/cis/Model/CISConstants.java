@@ -22,8 +22,6 @@ public class CISConstants
     public static final String ACTIVE = "active";
     public static final String STATUS = "status";
     public static final String IMAGE_STR = "imageString";
-    public static final String NAME1 = "name1";
-    public static final String NAME2 = "name2";
 
     //Commands
     public static final String PING = "ping";
