@@ -1,8 +1,8 @@
 /*
- * File: FacePamphletServer.java
+ * File: CIServer.java
  * ------------------------------
  * When it is finished, this program will implement a basic
- * social network management server.  Remember to update this comment!
+ * ecommerce network management server.  Remember to update this comment!
  */
 
 package edu.cis.Controller;
