@@ -1,8 +1,9 @@
 package edu.cis.ibcs_app.Controllers;
 
-import android.content.res.AssetManager;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -11,11 +12,6 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-
-import java.io.File;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 import edu.cis.ibcs_app.Controllers.twitter.TwitterController;
 import edu.cis.ibcs_app.R;
@@ -51,6 +47,12 @@ public class MainActivity extends AppCompatActivity {
         TwitterController myC = new TwitterController(this);
         myC.postTweet("hello world"); //this will tweet to your account
 
+    }
+
+    public void goToMarketPlace(View v)
+    {
+        Intent nextScreen = new Intent(getBaseContext(), ListingsActivity.class);
+        startActivity(nextScreen);
     }
 
 }

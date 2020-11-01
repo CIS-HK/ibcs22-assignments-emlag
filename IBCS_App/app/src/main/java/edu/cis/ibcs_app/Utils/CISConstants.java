@@ -1,7 +1,7 @@
 package edu.cis.ibcs_app.Utils;
 
 public class CISConstants {
-    public static final String HOST = "NGROK_URL_HERE";
+    public static final String HOST = "http://e46d5f4a5741.ngrok.io";
 
     //Commands
     public static final String PING = "ping";
@@ -15,4 +15,6 @@ public class CISConstants {
     public static final String SET_IMG = "setImage";
     public static final String GET_IMG = "getImage";
     public static final String GET_ALL_LIST = "getListings";
+
+    public static final String SUCCESS = "success";
 }

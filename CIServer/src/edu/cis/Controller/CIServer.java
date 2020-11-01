@@ -49,11 +49,15 @@ public class CIServer extends ConsoleProgram
         // your code here.
         if (request.getCommand().equals(CISConstants.PING))
         {
-            final String PING_MSG = "Hello, internet";
+            final String PING_MSG = "Hi Android app!";
 
             //println is used instead of System.out.println to print to the server GUI
             println("   => " + PING_MSG);
             return PING_MSG;
+        }
+        if(cmd.equals(CISConstants.ADD_LISTING))
+        {
+            return "Yes, sir";
         }
 
         return "Error: Unknown command " + cmd + ".";
