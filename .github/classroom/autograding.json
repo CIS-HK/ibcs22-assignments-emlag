@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Btest",
+      "setup": "cd Y13_Psets/Pset1-Datalab ; make",
+      "run": "./btest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
