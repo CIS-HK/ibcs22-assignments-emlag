@@ -3,7 +3,7 @@
     {
       "name": "Btest",
       "setup": "cd Y13_Psets/Pset1-Datalab ; sudo apt-get install g++-multilib ",
-      "run": "cd Y13_Psets/Pset1-Datalab ; make ; ./btest -g",
+      "run": "cd Y13_Psets/Pset1-Datalab ; make ; ./best; ./btest -g",
       "input": "",
       "output": "",
       "comparison": "included",
