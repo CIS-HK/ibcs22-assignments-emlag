@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Btest",
-      "setup": "cd Y13_Psets/Pset1-Datalab ; sudo apt-get install g++-multilib ; make ; ./btest -g",
-      "run": "echo Done",
+      "setup": "cd Y13_Psets/Pset1-Datalab ; sudo apt-get install g++-multilib ",
+      "run": "make ; ./btest -g",
       "input": "",
       "output": "",
       "comparison": "included",
